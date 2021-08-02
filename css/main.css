@@ -1,0 +1,179 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+.heading {
+  font-family: "Poppins", sans-serif;
+}
+.main_heading {
+  font-size: 50px;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.orange-span {
+  color: orange;
+}
+
+p {
+  color: #18191f;
+}
+
+header {
+  width: 100%;
+  padding: 10px 0;
+}
+
+.navbar-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 15px;
+}
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+header .logo h4 {
+  font-size: 18px;
+}
+.mb-icon {
+  display: none;
+  color: black;
+  font-size: 25px;
+}
+section {
+  padding: 4rem 0;
+}
+.card-title {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.paragraph {
+  font-size: 18px;
+  line-height: 1.9;
+}
+
+.paragraph_secondary {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.9;
+}
+.button {
+  background: linear-gradient(orange, tomato);
+  padding: 10px 30px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 50px 50px;
+  /* margin-top: 10px; */
+  display: inline-block;
+  border: 2px solid;
+
+  font-size: 17px;
+}
+.button:hover {
+  background-color: orange;
+  color: black;
+  border: none;
+}
+.button.button-border {
+  color: orange;
+  background: transparent;
+  border: none;
+}
+
+.about {
+  background: url("./images/7.png");
+}
+
+.sub-heading {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.info-parent {
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.accordion-item:not(:first-of-type) {
+  border-top: 0;
+  margin: 10px 0;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #ffffff;
+  background-color: rgb(245, 149, 40);
+  outline-width: 0;
+}
+
+footer {
+  background: black;
+  padding: 2rem 0;
+  text-align: center;
+  color: white;
+}
+
+footer p {
+  color: white;
+  margin: 0px;
+}
+
+.bg-light {
+  background-color: #f8f9fa !important;
+}
+
+@media only screen and (max-width: 481px) {
+  .mb-icon {
+    display: block;
+    padding: 20px 0;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  .info-child h3 {
+    font-size: 35px;
+    padding: 5px;
+  }
+  .info-child p {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 321px) {
+  .info-child h3 {
+    font-size: 30px;
+    padding: 5px;
+    font-weight: 700;
+  }
+  .info-child p {
+    font-size: 12px;
+    padding: 5px;
+    font-weight: 700;
+  }
+}
